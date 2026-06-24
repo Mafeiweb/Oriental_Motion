@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://mafeiweb.github.io/Oriental_Motion/sitemap.xml

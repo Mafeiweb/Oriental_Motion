@@ -1,0 +1,2 @@
+:HL["/Oriental_Motion/_next/static/chunks/3d-i3vbh10xqs.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"es-us","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"collections","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"tai-chi-shoes","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"dc1hJgFtRHjfwphpuLNUr"}
