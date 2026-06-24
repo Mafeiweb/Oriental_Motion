@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "collections": "系列",
+    "technology": "科技",
+    "journal": "轻养生志记",
+    "membership": "会员",
+    "about": "关于"
+  },
+  "a11y": {
+    "skipToContent": "跳到主要内容",
+    "primaryNav": "主导航",
+    "localeNav": "语言导航"
+  },
+  "home": {
+    "eyebrow": "面向日常行走的机能轻养生",
+    "title": "为平衡而造，为日常仪式而设计。",
+    "description": "Oriental Motion 先解决防滑、支撑与透气舒适，再以东方轻养生审美延展到鞋履、服装和未来会员仪式生态。",
+    "seoTitle": "面向日常行走的东方性能轻养生鞋服",
+    "seoDescription": "选购 Oriental Motion 面向美国市场的东方轻养生鞋履、透气服装、防滑太极鞋与未来会员养护仪式。",
+    "primaryCta": "选购首发系列",
+    "secondaryCta": "了解机能科技",
+    "proofTitle": "第一步就能感到安心",
+    "proofItems": [
+      "湿地抓地",
+      "柔和缓震",
+      "可清洁舒适层",
+      "自然触感材料"
+    ],
+    "collectionTitle": "为稳定日常准备的首发系列",
+    "collectionDescription": "鞋履、透气层搭与仪式套组，适合练习、采买、旅行与礼赠。",
+    "technologyTitle": "安静承托脚下的科技",
+    "technologyDescription": "纹理抓地、回弹缓震与麻丝感鞋面支持日常动作，同时避免过度运动化。",
+    "ritualTitle": "为下一阶段准备的会员仪式层",
+    "ritualDescription": "养护札记、季节提示与未来 QR/NFC 触点，让产品在首次穿着之后继续有用。",
+    "journalTitle": "平衡行走札记",
+    "journalDescription": "关于安全、天然触感材料与实用轻养生礼赠的短文。"
+  },
+  "common": {
+    "shopNow": "立即选购",
+    "learnMore": "了解更多",
+    "readMore": "继续阅读",
+    "currency": "美元",
+    "safetyFirst": "安全优先",
+    "wellnessSecond": "养生审美",
+    "ritualThird": "仪式生态"
+  },
+  "commerce": {
+    "viewDetails": "查看详情",
+    "from": "起",
+    "benefits": "产品益处",
+    "specifications": "规格信息",
+    "faq": "常见问题",
+    "addToCart": "加入购物车",
+    "checkoutSoon": "结账集成即将上线",
+    "careNotes": "养护说明",
+    "careCopy": "穿着后保持通风，湿滑地面使用后轻柔擦拭，并远离直接热源，让材质保持从容状态。",
+    "proofCopy": "围绕稳固抓地、平衡支撑与安定日常仪式而设计。",
+    "collections": "系列",
+    "products": "产品",
+    "allCollectionsTitle": "选购东方轻养生系列",
+    "allCollectionsDescription": "探索为平衡行走与从容日常养护设计的鞋履、服装和仪式套组。",
+    "emptyCollection": "该系列产品正在准备中。"
+  },
+  "footer": {
+    "tagline": "步履安稳，仪式从容。",
+    "support": "客户关怀",
+    "shop": "选购",
+    "learn": "了解",
+    "locale": "语言",
+    "newsletter": "接收养护札记与会员仪式预览。"
+  },
+  "technology": {
+    "title": "为抓地、平衡与透气轻松而设计。",
+    "description": "首发系统聚焦防滑外底、低重心稳定结构、柔和天然触感鞋面，以及让日常动作更从容的细节。",
+    "eyebrow": "科技",
+    "seoTitle": "防滑太极鞋与东方轻养生科技",
+    "seoDescription": "了解 Oriental Motion 的湿地抓地外底、缓震中底、透气麻丝材料系统与克制东方设计语言。",
+    "collectionCta": "选购太极养生鞋",
+    "productCta": "查看衡步太极鞋",
+    "sections": [
+      {
+        "title": "湿地抓地外底",
+        "body": "纹理橡胶结构帮助光滑室内地面、潮湿入口和练习转重更可控。"
+      },
+      {
+        "title": "氮气中底脚感",
+        "body": "柔和而有回弹的缓震支持日常步行，同时保留接近地面的反馈。"
+      },
+      {
+        "title": "麻丝材料系统",
+        "body": "天然触感鞋面与服装层搭强调透气、柔和肌理和便于日常养护。"
+      },
+      {
+        "title": "克制东方设计语言",
+        "body": "安静线条、低重心廓形与从容色彩回应养生传统，也适合现代美国日常。"
+      }
+    ]
+  },
+  "membership": {
+    "title": "面向未来的日常仪式会员。",
+    "description": "会员将获得季节性身心练习札记、产品养护、礼赠通道，以及围绕安定日常设计的养生套组预览。",
+    "eyebrow": "会员",
+    "seoTitle": "Oriental Motion 会员与仪式套组预览",
+    "seoDescription": "预览 Oriental Motion 未来 QR 和 NFC 养护实践、会员权益与长期轻养生仪式套组概念。",
+    "collectionCta": "探索仪式套组",
+    "productCta": "查看云麻舒展套装",
+    "items": [
+      {
+        "title": "QR 与 NFC 养护实践",
+        "body": "未来产品标签可打开合脚建议、清洁说明、动作提示和季节养护仪式，无需登录。"
+      },
+      {
+        "title": "会员权益",
+        "body": "套组抢先预览、养护提醒、礼赠通道与限定配色通知，鼓励持续日常使用。"
+      },
+      {
+        "title": "仪式套组留存",
+        "body": "鞋履、服装、茶时札记与养护小物可以形成可持续补充的系统，而非一次性购买。"
+      }
+    ]
+  },
+  "about": {
+    "title": "把东方轻养生做得实用。",
+    "description": "Oriental Motion 将太极平衡、天然材料与礼赠仪式，转译为适合现代家庭和城市节奏的机能产品。",
+    "eyebrow": "关于",
+    "seoTitle": "关于 Oriental Motion 东方轻养生鞋履",
+    "seoDescription": "了解 Oriental Motion 如何融合东方养生、现代性能、美国日常行走与天然材料理念。",
+    "collectionCta": "探索全系列",
+    "journalCta": "阅读轻养生志记",
+    "sections": [
+      {
+        "title": "东方轻养生",
+        "body": "品牌从平衡、呼吸和太极的稳步节奏出发，而不是追逐外放的运动潮流。"
+      },
+      {
+        "title": "现代性能",
+        "body": "防滑、缓震、灵活支撑与可清洁层搭，让轻养生概念真正进入日常。"
+      },
+      {
+        "title": "美国日常行走",
+        "body": "产品面向采买、室内练习、旅行、入户、礼赠和美国城市生活的混合节奏。"
+      },
+      {
+        "title": "材料哲学",
+        "body": "麻感、丝柔、透气的材料带来自然触感，同时保持日常穿着所需的耐用度。"
+      }
+    ]
+  },
+  "journal": {
+    "title": "轻养生志记",
+    "description": "关于防滑、东方轻养生材料、礼赠与日常行走的实用札记。",
+    "seoTitle": "Oriental Motion 轻养生志记",
+    "seoDescription": "阅读 Oriental Motion 关于太极鞋、天然触感轻养生服装和实用仪式礼赠的文章。",
+    "eyebrow": "轻养生志记",
+    "published": "发布于"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "collections": "Colecciones",
+    "technology": "Tecnología",
+    "journal": "Diario",
+    "membership": "Membresía",
+    "about": "Acerca de"
+  },
+  "a11y": {
+    "skipToContent": "Saltar al contenido",
+    "primaryNav": "Navegación principal",
+    "localeNav": "Navegación de idioma"
+  },
+  "home": {
+    "eyebrow": "Bienestar funcional para moverse a diario",
+    "title": "Hecho para el equilibrio, diseñado para el ritual diario.",
+    "description": "Oriental Motion empieza con agarre antideslizante, soporte equilibrado y comodidad transpirable, y suma una estética oriental de bienestar para zapatos, prendas y futuros rituales de membresía.",
+    "seoTitle": "Calzado y ropa de bienestar oriental para el movimiento diario",
+    "seoDescription": "Compra Oriental Motion: calzado de bienestar oriental para EE. UU., ropa transpirable, zapatos de Tai Chi antideslizantes y futuro cuidado ritual para miembros.",
+    "primaryCta": "Comprar colección inicial",
+    "secondaryCta": "Explorar la tecnología",
+    "proofTitle": "Confianza desde el primer paso",
+    "proofItems": [
+      "Agarre en superficies húmedas",
+      "Amortiguación suave diaria",
+      "Capas lavables de comodidad",
+      "Materiales de tacto natural"
+    ],
+    "collectionTitle": "Colección inicial para rutinas firmes",
+    "collectionDescription": "Zapatos, capas transpirables y kits rituales para práctica, mandados, viajes y regalos.",
+    "technologyTitle": "Tecnología que trabaja en silencio",
+    "technologyDescription": "Agarre texturizado, amortiguación sensible y capelladas inspiradas en cáñamo y seda apoyan el movimiento sin verse clínicas.",
+    "ritualTitle": "Una capa ritual para lo que viene",
+    "ritualDescription": "Notas de cuidado, prompts de temporada y futuros puntos QR/NFC están pensados para mantener el producto útil después del primer uso.",
+    "journalTitle": "Notas para moverse con equilibrio",
+    "journalDescription": "Lecturas breves sobre seguridad, materiales de tacto natural y regalos prácticos de bienestar."
+  },
+  "common": {
+    "shopNow": "Comprar ahora",
+    "learnMore": "Conocer más",
+    "readMore": "Leer más",
+    "currency": "USD",
+    "safetyFirst": "Seguridad primero",
+    "wellnessSecond": "Estética de bienestar",
+    "ritualThird": "Ecosistema ritual"
+  },
+  "commerce": {
+    "viewDetails": "Ver detalles",
+    "from": "Desde",
+    "benefits": "Beneficios",
+    "specifications": "Especificaciones",
+    "faq": "Preguntas frecuentes",
+    "addToCart": "Agregar al carrito",
+    "checkoutSoon": "Integración de pago próximamente",
+    "careNotes": "Notas de cuidado",
+    "careCopy": "Airea entre usos, limpia suavemente después de pisos húmedos y evita el calor directo para conservar los materiales.",
+    "proofCopy": "Diseñado alrededor de tracción firme, soporte equilibrado y un ritual diario tranquilo.",
+    "collections": "Colecciones",
+    "products": "Productos",
+    "allCollectionsTitle": "Compra colecciones de bienestar oriental",
+    "allCollectionsDescription": "Explora calzado, prendas y kits rituales diseñados para movimiento equilibrado y cuidado diario sereno.",
+    "emptyCollection": "Los productos de esta colección se están preparando."
+  },
+  "footer": {
+    "tagline": "Movimiento firme, ritual refinado.",
+    "support": "Atención al cliente",
+    "shop": "Comprar",
+    "learn": "Aprender",
+    "locale": "Idioma",
+    "newsletter": "Recibe notas de cuidado y adelantos de rituales para miembros."
+  },
+  "technology": {
+    "title": "Diseñado para tracción, equilibrio y frescura.",
+    "description": "Nuestro sistema inicial se centra en suelas antideslizantes, estabilidad de perfil bajo, materiales suaves de tacto natural y detalles que hacen que el movimiento diario se sienta sereno.",
+    "eyebrow": "Tecnología",
+    "seoTitle": "Zapatos de Tai Chi antideslizantes y tecnología de bienestar oriental",
+    "seoDescription": "Explora las suelas para superficies húmedas, mediasuelas con amortiguación, materiales transpirables de cáñamo-seda y diseño oriental sobrio de Oriental Motion.",
+    "collectionCta": "Comprar zapatos de Tai Chi",
+    "productCta": "Ver Balance Walker",
+    "sections": [
+      {
+        "title": "Suela con agarre húmedo",
+        "body": "Un patrón de goma texturizada ayuda a controlar pisos interiores lisos, entradas húmedas y transiciones de práctica."
+      },
+      {
+        "title": "Sensación de media suela con nitrógeno",
+        "body": "La amortiguación suave y resiliente apoya la caminata diaria sin alejar demasiado el pie de la respuesta del suelo."
+      },
+      {
+        "title": "Sistema material cáñamo-seda",
+        "body": "Capelladas y capas de tacto natural priorizan frescura, textura suave y cuidado sencillo para uso diario."
+      },
+      {
+        "title": "Lenguaje oriental sobrio",
+        "body": "Líneas tranquilas, perfiles bajos y colores serenos referencian tradiciones de bienestar y funcionan en rutinas modernas de EE. UU."
+      }
+    ]
+  },
+  "membership": {
+    "title": "Una futura membresía ritual para el cuidado guiado.",
+    "description": "Los miembros recibirán notas de movimiento por temporada, cuidado de producto, acceso a regalos y adelantos de kits de bienestar pensados para rutinas tranquilas.",
+    "eyebrow": "Membresía",
+    "seoTitle": "Vista previa de membresía y kits rituales de Oriental Motion",
+    "seoDescription": "Preview de futuras prácticas QR y NFC de cuidado, beneficios para miembros y conceptos de kits rituales para retención de bienestar.",
+    "collectionCta": "Explorar kits rituales",
+    "productCta": "Ver Cloud Hemp Set",
+    "items": [
+      {
+        "title": "Prácticas de cuidado QR y NFC",
+        "body": "Las futuras etiquetas de producto pueden abrir guía de ajuste, limpieza, prompts de movimiento y rituales de temporada sin requerir inicio de sesión."
+      },
+      {
+        "title": "Beneficios de miembro",
+        "body": "Adelantos de kits, recordatorios de cuidado, acceso a regalos y avisos de colores limitados pueden premiar el uso diario repetido."
+      },
+      {
+        "title": "Retención con kits rituales",
+        "body": "Calzado, prendas, notas para el té y objetos de cuidado pueden volverse un sistema renovable en lugar de una compra única."
+      }
+    ]
+  },
+  "about": {
+    "title": "Bienestar oriental hecho práctico.",
+    "description": "Oriental Motion traduce el equilibrio del tai chi, los materiales naturales y los rituales de regalo en productos funcionales para hogares modernos y rutinas urbanas.",
+    "eyebrow": "Acerca de",
+    "seoTitle": "Acerca de Oriental Motion y su calzado de bienestar oriental",
+    "seoDescription": "Conoce cómo Oriental Motion une bienestar oriental, rendimiento moderno, movimiento diario en EE. UU. y filosofía de materiales naturales.",
+    "collectionCta": "Explorar colecciones",
+    "journalCta": "Leer el diario",
+    "sections": [
+      {
+        "title": "Bienestar oriental",
+        "body": "La marca empieza con equilibrio, respiración y el ritmo firme del tai chi, no con espectáculo atlético de tendencia."
+      },
+      {
+        "title": "Rendimiento moderno",
+        "body": "Antideslizante, amortiguación, soporte flexible y capas lavables hacen que la idea de bienestar sea práctica."
+      },
+      {
+        "title": "Movimiento diario en EE. UU.",
+        "body": "Los productos se diseñan para mandados, práctica interior, viajes, entrada al hogar, regalos y el ritmo mixto de la ciudad."
+      },
+      {
+        "title": "Filosofía material",
+        "body": "Materiales con tacto de cáñamo, suavidad de seda y frescura crean una sensación natural con durabilidad diaria."
+      }
+    ]
+  },
+  "journal": {
+    "title": "Diario",
+    "description": "Notas prácticas sobre agarre, materiales de bienestar oriental, regalos y movimiento diario.",
+    "seoTitle": "Diario de Oriental Motion",
+    "seoDescription": "Lee artículos de Oriental Motion sobre zapatos de Tai Chi, prendas de bienestar de tacto natural y regalos rituales prácticos.",
+    "eyebrow": "Diario",
+    "published": "Publicado"
+  }
+}

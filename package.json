@@ -1,0 +1,37 @@
+{
+  "name": "eastern-wellness-storefront",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@next/third-parties": "16.2.9",
+    "clsx": "2.1.1",
+    "lucide-react": "1.21.0",
+    "next": "16.2.9",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.1",
+    "@testing-library/react": "16.3.2",
+    "@types/node": "26.0.0",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "autoprefixer": "10.5.1",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.9",
+    "jsdom": "29.1.1",
+    "postcss": "8.5.15",
+    "tailwindcss": "4.3.1",
+    "typescript": "6.0.3",
+    "vitest": "4.1.9"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "nav": {
+    "collections": "Collections",
+    "technology": "Technology",
+    "journal": "Journal",
+    "membership": "Membership",
+    "about": "About"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "primaryNav": "Primary navigation",
+    "localeNav": "Language navigation"
+  },
+  "home": {
+    "eyebrow": "Functional wellness for daily movement",
+    "title": "Built for balance, styled for daily ritual.",
+    "description": "Oriental Motion starts with slip resistance, balanced support, and breathable comfort, then brings Eastern wellness aesthetics into daily shoes, apparel, and future member rituals.",
+    "seoTitle": "Eastern Performance Wellness Footwear and Apparel for Daily Movement",
+    "seoDescription": "Shop Oriental Motion for US-market Eastern wellness footwear, breathable apparel, slip-resistant Tai Chi shoes, and future ritual member care.",
+    "primaryCta": "Shop launch collection",
+    "secondaryCta": "Explore the technology",
+    "proofTitle": "Proof in the first step",
+    "proofItems": [
+      "Wet-grip traction",
+      "Soft daily cushioning",
+      "Washable comfort layers",
+      "Natural-feeling materials"
+    ],
+    "collectionTitle": "Launch collection for steady routines",
+    "collectionDescription": "Shoes, breathable layers, and ritual kits designed for practice, errands, travel, and gifting.",
+    "technologyTitle": "Technology that stays quiet underfoot",
+    "technologyDescription": "Textured grip, responsive cushioning, and hemp-silk inspired uppers support movement without making the shoe feel clinical.",
+    "ritualTitle": "A member ritual layer, ready for what comes next",
+    "ritualDescription": "Care notes, seasonal prompts, and future QR/NFC touchpoints are designed to keep the product useful after the first wear.",
+    "journalTitle": "Notes for balanced movement",
+    "journalDescription": "Short reads on safety, natural-touch materials, and practical wellness gifting."
+  },
+  "common": {
+    "shopNow": "Shop now",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "currency": "USD",
+    "safetyFirst": "Safety first",
+    "wellnessSecond": "Wellness aesthetics",
+    "ritualThird": "Ritual ecosystem"
+  },
+  "commerce": {
+    "viewDetails": "View details",
+    "from": "From",
+    "benefits": "Benefits",
+    "specifications": "Specifications",
+    "faq": "Frequently asked questions",
+    "addToCart": "Add to cart",
+    "checkoutSoon": "Checkout integration coming soon",
+    "careNotes": "Care notes",
+    "careCopy": "Air between wears, wipe gently after wet floors, and keep away from direct heat so the materials stay composed.",
+    "proofCopy": "Designed around grounded traction, balanced support, and calm daily ritual.",
+    "collections": "Collections",
+    "products": "Products",
+    "allCollectionsTitle": "Shop Eastern wellness collections",
+    "allCollectionsDescription": "Explore footwear, apparel, and ritual kits designed for balanced movement and calm daily care.",
+    "emptyCollection": "Products for this collection are being prepared."
+  },
+  "footer": {
+    "tagline": "Grounded movement, refined ritual.",
+    "support": "Customer care",
+    "shop": "Shop",
+    "learn": "Learn",
+    "locale": "Locale",
+    "newsletter": "Receive care notes and member ritual previews."
+  },
+  "technology": {
+    "title": "Built for traction, balance, and breathable ease.",
+    "description": "Our launch system focuses on slip-resistant outsoles, low-profile stability, soft natural-touch uppers, and details that help daily movement feel composed.",
+    "eyebrow": "Technology",
+    "seoTitle": "Slip-Resistant Tai Chi Shoes and Eastern Wellness Technology",
+    "seoDescription": "Explore Oriental Motion wet-grip outsoles, cushioned midsoles, breathable hemp-silk material systems, and restrained Eastern design language.",
+    "collectionCta": "Shop Tai Chi shoes",
+    "productCta": "View Balance Walker",
+    "sections": [
+      {
+        "title": "Wet grip outsole",
+        "body": "A textured rubber pattern helps smooth indoor floors, damp entries, and practice transitions feel more controlled."
+      },
+      {
+        "title": "Nitrogen midsole feel",
+        "body": "Soft, resilient cushioning supports everyday walking without lifting the foot too far from ground feedback."
+      },
+      {
+        "title": "Hemp-silk material system",
+        "body": "Natural-touch uppers and apparel layers prioritize breathability, gentle texture, and easy care for daily use."
+      },
+      {
+        "title": "Restrained Eastern design language",
+        "body": "Quiet lines, low profiles, and composed colors reference wellness traditions while staying wearable in modern US routines."
+      }
+    ]
+  },
+  "membership": {
+    "title": "A future ritual membership for guided care.",
+    "description": "Members will receive seasonal movement notes, product care, gifting access, and wellness kit previews designed around calm daily routines.",
+    "eyebrow": "Membership",
+    "seoTitle": "Oriental Motion Membership and Ritual Kit Preview",
+    "seoDescription": "Preview future Oriental Motion QR and NFC care practices, member perks, and ritual kit concepts for long-term wellness retention.",
+    "collectionCta": "Explore ritual kits",
+    "productCta": "View Cloud Hemp Set",
+    "items": [
+      {
+        "title": "QR and NFC care practices",
+        "body": "Future product tags can open fit guidance, cleaning notes, movement prompts, and seasonal care rituals without requiring login."
+      },
+      {
+        "title": "Member perks",
+        "body": "Early kit previews, care reminders, gifting access, and limited color notices can reward repeat daily use."
+      },
+      {
+        "title": "Ritual kit retention",
+        "body": "Footwear, apparel, tea-time notes, and care objects can become a replenishable system instead of a one-time purchase."
+      }
+    ]
+  },
+  "about": {
+    "title": "Eastern wellness, made practical.",
+    "description": "Oriental Motion translates tai chi balance, natural materials, and gifting rituals into functional products for modern homes and city routines.",
+    "eyebrow": "About",
+    "seoTitle": "About Oriental Motion Eastern Wellness Footwear",
+    "seoDescription": "Learn how Oriental Motion blends Eastern wellness, modern performance, US daily movement, and natural material philosophy.",
+    "collectionCta": "Explore collections",
+    "journalCta": "Read the journal",
+    "sections": [
+      {
+        "title": "Eastern wellness",
+        "body": "The brand begins with balance, breath, and the grounded rhythm of tai chi rather than trend-led athletic spectacle."
+      },
+      {
+        "title": "Modern performance",
+        "body": "Slip resistance, cushioning, flexible support, and washable layers make the wellness idea practical for real routines."
+      },
+      {
+        "title": "US daily movement",
+        "body": "Products are shaped for errands, indoor practice, travel days, home entry, gifting, and the mixed pace of American city life."
+      },
+      {
+        "title": "Material philosophy",
+        "body": "Hemp-touch, silk-soft, breathable materials create a natural feeling while staying durable enough for daily wear."
+      }
+    ]
+  },
+  "journal": {
+    "title": "Journal",
+    "description": "Practical notes on slip resistance, Eastern wellness materials, gifting, and daily movement.",
+    "seoTitle": "Oriental Motion Journal",
+    "seoDescription": "Read Oriental Motion articles about Tai Chi shoes, natural-touch wellness apparel, and practical ritual gifting.",
+    "eyebrow": "Journal",
+    "published": "Published"
+  }
+}

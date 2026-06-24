@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+@source "../**/*.{ts,tsx}";
+@import "../styles/tokens.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-carbon);
+  font-family: Arial, "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  overflow-x: clip;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
