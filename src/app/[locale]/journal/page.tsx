@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { getMessages } from "@/i18n/messages";
 import { isLocale } from "@/i18n/routing";
 import { getArticles } from "@/lib/content/journal";
+import { localizedHref } from "@/lib/i18n/paths";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 type JournalPageProps = {
@@ -51,7 +52,7 @@ export default async function JournalPage({ params }: JournalPageProps) {
         {articles.map((article) => (
           <Link
             className="rounded-lg border border-[var(--border-subtle)] bg-[var(--surface-paper)] p-5 transition-colors hover:border-[var(--color-carbon)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-clay)]"
-            href={`/${locale}/journal/${article.slug}`}
+            href={localizedHref(locale, `/journal/${article.slug}`)}
             key={article.slug}
           >
             <article className="space-y-4">

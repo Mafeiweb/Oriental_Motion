@@ -4,6 +4,7 @@ import { Faq } from "@/components/content/faq";
 import type { Locale } from "@/i18n/routing";
 import { getMessages } from "@/i18n/messages";
 import { formatPrice } from "@/lib/commerce/format";
+import { assetPath } from "@/lib/i18n/paths";
 import type { Product } from "@/types/catalog";
 
 type ProductDetailProps = {
@@ -27,7 +28,7 @@ export function ProductDetail({ locale, product }: ProductDetailProps) {
               loading="eager"
               priority
               sizes="(min-width: 1024px) 52vw, 100vw"
-              src={product.image}
+              src={assetPath(product.image)}
             />
             <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[rgba(21,25,21,0.2)] to-transparent" />
           </div>

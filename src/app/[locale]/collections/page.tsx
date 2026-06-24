@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import { getCollections } from "@/lib/content/catalog";
+import { assetPath, localizedHref } from "@/lib/i18n/paths";
 import { buildMetadata } from "@/lib/seo/metadata";
 import { getMessages } from "@/i18n/messages";
 import { isLocale } from "@/i18n/routing";
@@ -54,7 +55,7 @@ export default async function CollectionsPage({ params }: CollectionsPageProps) 
         {collections.map((collection) => (
           <Link
             className="group grid min-h-0 grid-rows-[160px_1fr] overflow-hidden rounded-lg border border-[var(--border-subtle)] bg-[var(--surface-paper)] transition-colors hover:border-[var(--color-carbon)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-clay)] sm:min-h-96 sm:grid-rows-[180px_1fr]"
-            href={`/${locale}/collections/${collection.slug}`}
+            href={localizedHref(locale, `/collections/${collection.slug}`)}
             key={collection.slug}
           >
             <span className="relative block overflow-hidden bg-[var(--color-mist)]">
@@ -63,7 +64,7 @@ export default async function CollectionsPage({ params }: CollectionsPageProps) 
                 className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                 fill
                 sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                src={collection.image}
+                src={assetPath(collection.image)}
               />
             </span>
             <span className="flex flex-col justify-between gap-8 p-5">

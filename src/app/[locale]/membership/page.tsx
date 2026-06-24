@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
 import { getMessages } from "@/i18n/messages";
 import { isLocale } from "@/i18n/routing";
+import { assetPath, localizedHref } from "@/lib/i18n/paths";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 type MembershipPageProps = {
@@ -53,7 +54,7 @@ export default async function MembershipPage({ params }: MembershipPageProps) {
             fill
             priority
             sizes="(min-width: 1024px) 44vw, 100vw"
-            src="/images/brand/ritual-kit-still-life.jpg"
+            src={assetPath("/images/brand/ritual-kit-still-life.jpg")}
           />
           <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[rgba(21,25,21,0.18)] to-transparent" />
         </div>
@@ -72,10 +73,10 @@ export default async function MembershipPage({ params }: MembershipPageProps) {
       </div>
 
       <div className="mt-8 flex flex-wrap gap-3">
-        <ButtonLink href={`/${locale}/collections/ritual-kits`}>
+        <ButtonLink href={localizedHref(locale, "/collections/ritual-kits")}>
           {membership.collectionCta}
         </ButtonLink>
-        <ButtonLink href={`/${locale}/products/cloud-hemp-set`} variant="secondary">
+        <ButtonLink href={localizedHref(locale, "/products/cloud-hemp-set")} variant="secondary">
           {membership.productCta}
         </ButtonLink>
       </div>

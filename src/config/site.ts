@@ -4,9 +4,14 @@ function withoutTrailingSlash(value: string) {
   return value.replace(/\/+$/, "");
 }
 
+const repositoryName = "Oriental_Motion";
+const isGitHubPages = process.env.GITHUB_PAGES === "true";
+const githubPagesUrl = `https://mafeiweb.github.io/${repositoryName}`;
+
 export const siteConfig = {
   name: "Oriental Motion",
-  url: withoutTrailingSlash(process.env.NEXT_PUBLIC_SITE_URL || "https://oriental-motion.com"),
+  url: withoutTrailingSlash(process.env.NEXT_PUBLIC_SITE_URL || (isGitHubPages ? githubPagesUrl : "https://oriental-motion.com")),
+  basePath: isGitHubPages ? `/${repositoryName}` : "",
   defaultMarket: "US",
   supportEmail: process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "support@oriental-motion.com",
   defaultImage: "/images/products/balance-walker.jpg",

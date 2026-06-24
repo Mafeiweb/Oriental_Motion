@@ -7,6 +7,7 @@ import type { Locale } from "@/i18n/routing";
 import { getMessages } from "@/i18n/messages";
 import { getArticles } from "@/lib/content/journal";
 import { getProducts } from "@/lib/content/catalog";
+import { assetPath, localizedHref } from "@/lib/i18n/paths";
 
 type HomeSectionsProps = {
   locale: Locale;
@@ -37,8 +38,8 @@ export function HomeSections({ locale }: HomeSectionsProps) {
             <p className="mx-auto max-w-2xl text-base leading-8 text-[var(--color-stone)] lg:mx-0">{home.description}</p>
           </div>
           <div className="flex flex-wrap justify-center gap-3 lg:justify-start">
-            <ButtonLink href={`/${locale}/collections`}>{home.primaryCta}</ButtonLink>
-            <ButtonLink href={`/${locale}/technology`} variant="secondary">
+            <ButtonLink href={localizedHref(locale, "/collections")}>{home.primaryCta}</ButtonLink>
+            <ButtonLink href={localizedHref(locale, "/technology")} variant="secondary">
               {home.secondaryCta}
             </ButtonLink>
           </div>
@@ -51,7 +52,7 @@ export function HomeSections({ locale }: HomeSectionsProps) {
             fill
             priority
             sizes="(min-width: 1024px) 45vw, 100vw"
-            src="/images/brand/ritual-kit-still-life.jpg"
+            src={assetPath("/images/brand/ritual-kit-still-life.jpg")}
           />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(255,253,248,0.92),rgba(255,253,248,0.52)_45%,rgba(255,253,248,0.04))]" />
           <div className="absolute left-5 top-5 max-w-52 space-y-2 sm:left-8 sm:top-8 sm:max-w-56 sm:space-y-3">
@@ -80,7 +81,7 @@ export function HomeSections({ locale }: HomeSectionsProps) {
             </h2>
             <p className="text-base leading-8 text-[var(--color-stone)]">{home.collectionDescription}</p>
           </div>
-          <ButtonLink href={`/${locale}/collections`} variant="secondary">
+          <ButtonLink href={localizedHref(locale, "/collections")} variant="secondary">
             {common.shopNow}
           </ButtonLink>
         </div>
@@ -98,7 +99,7 @@ export function HomeSections({ locale }: HomeSectionsProps) {
               eyebrow: common.safetyFirst,
               title: home.technologyTitle,
               body: home.technologyDescription,
-              href: `/${locale}/technology`,
+              href: localizedHref(locale, "/technology"),
               cta: common.learnMore,
               image: featureImages[0]
             },
@@ -106,7 +107,7 @@ export function HomeSections({ locale }: HomeSectionsProps) {
               eyebrow: common.ritualThird,
               title: home.ritualTitle,
               body: home.ritualDescription,
-              href: `/${locale}/membership`,
+              href: localizedHref(locale, "/membership"),
               cta: common.learnMore,
               image: featureImages[1]
             },
@@ -114,7 +115,7 @@ export function HomeSections({ locale }: HomeSectionsProps) {
               eyebrow: common.wellnessSecond,
               title: home.journalTitle,
               body: home.journalDescription,
-              href: `/${locale}/journal`,
+              href: localizedHref(locale, "/journal"),
               cta: common.readMore,
               image: featureImages[2]
             }
@@ -141,7 +142,7 @@ export function HomeSections({ locale }: HomeSectionsProps) {
           {articles.map((article) => (
             <Link
               className="rounded-lg border border-[var(--border-subtle)] bg-[var(--surface-paper)] p-5 transition-colors hover:border-[var(--color-carbon)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-clay)]"
-              href={`/${locale}/journal/${article.slug}`}
+              href={localizedHref(locale, `/journal/${article.slug}`)}
               key={article.slug}
             >
               <article className="space-y-4">
@@ -181,7 +182,7 @@ function FeaturePanel({ eyebrow, title, body, href, cta, image }: FeaturePanelPr
           className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
           fill
           sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-          src={image}
+          src={assetPath(image)}
         />
       </span>
       <span className="flex flex-col items-start justify-between gap-8 p-5">

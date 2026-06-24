@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
 import { getMessages } from "@/i18n/messages";
 import { isLocale } from "@/i18n/routing";
+import { assetPath, localizedHref } from "@/lib/i18n/paths";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 type TechnologyPageProps = {
@@ -53,7 +54,7 @@ export default async function TechnologyPage({ params }: TechnologyPageProps) {
             fill
             priority
             sizes="(min-width: 1024px) 44vw, 100vw"
-            src="/images/products/balance-walker-generated.jpg"
+            src={assetPath("/images/products/balance-walker-generated.jpg")}
           />
           <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[rgba(21,25,21,0.18)] to-transparent" />
         </div>
@@ -73,10 +74,10 @@ export default async function TechnologyPage({ params }: TechnologyPageProps) {
       </div>
 
       <div className="mt-8 flex flex-wrap gap-3">
-        <ButtonLink href={`/${locale}/collections/tai-chi-shoes`}>
+        <ButtonLink href={localizedHref(locale, "/collections/tai-chi-shoes")}>
           {technology.collectionCta}
         </ButtonLink>
-        <ButtonLink href={`/${locale}/products/balance-walker`} variant="secondary">
+        <ButtonLink href={localizedHref(locale, "/products/balance-walker")} variant="secondary">
           {technology.productCta}
         </ButtonLink>
       </div>

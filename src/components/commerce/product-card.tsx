@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import type { Locale } from "@/i18n/routing";
 import { getMessages } from "@/i18n/messages";
 import { formatPrice } from "@/lib/commerce/format";
+import { assetPath, localizedHref } from "@/lib/i18n/paths";
 import type { Product } from "@/types/catalog";
 
 type ProductCardProps = {
@@ -22,7 +23,7 @@ export function ProductCard({ locale, product }: ProductCardProps) {
           className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
           fill
           sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-          src={product.image}
+          src={assetPath(product.image)}
         />
         <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[rgba(21,25,21,0.18)] to-transparent" />
       </div>
@@ -42,7 +43,7 @@ export function ProductCard({ locale, product }: ProductCardProps) {
             {formatPrice(locale, product.price)}
           </p>
           <Link
-            href={`/${locale}/products/${product.slug}`}
+            href={localizedHref(locale, `/products/${product.slug}`)}
             className="inline-flex min-h-10 max-w-full items-center rounded-full border border-[var(--border-subtle)] px-4 py-2 text-center text-sm font-medium leading-tight text-[var(--color-carbon)] transition-colors hover:border-[var(--color-carbon)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-clay)]"
           >
             {commerce.viewDetails}

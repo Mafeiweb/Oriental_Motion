@@ -1,4 +1,3 @@
-import "../globals.css";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { Footer } from "@/components/layout/footer";
@@ -31,20 +30,18 @@ export default async function LocaleLayout({
   const messages = getMessages(locale);
 
   return (
-    <html data-scroll-behavior="smooth" lang={locale}>
-      <body>
-        <a
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-[var(--color-carbon)] focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:!text-[var(--color-on-dark)] focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-[var(--color-clay)]"
-          href="#main-content"
-        >
-          {messages.a11y.skipToContent}
-        </a>
-        <Header locale={locale} />
-        <main id="main-content" tabIndex={-1}>
-          {children}
-        </main>
-        <Footer locale={locale} />
-      </body>
-    </html>
+    <>
+      <a
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-[var(--color-carbon)] focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:!text-[var(--color-on-dark)] focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-[var(--color-clay)]"
+        href="#main-content"
+      >
+        {messages.a11y.skipToContent}
+      </a>
+      <Header locale={locale} />
+      <main id="main-content" tabIndex={-1}>
+        {children}
+      </main>
+      <Footer locale={locale} />
+    </>
   );
 }

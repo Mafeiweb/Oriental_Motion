@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { siteConfig } from "../../config/site";
 import { defaultLocale, localeHreflang, locales, type Locale } from "../../i18n/routing";
+import { assetPath } from "../i18n/paths";
 
 type BuildMetadataInput = {
   locale: Locale;
@@ -18,7 +19,7 @@ export function localizedPath(locale: Locale, path: string) {
 }
 
 export function absoluteUrl(pathOrUrl: string) {
-  return new URL(pathOrUrl, siteConfig.url).toString();
+  return new URL(assetPath(pathOrUrl), siteConfig.url).toString();
 }
 
 export function buildAlternates(path: string) {

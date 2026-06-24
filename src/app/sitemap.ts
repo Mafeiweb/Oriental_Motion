@@ -5,6 +5,8 @@ import { getCollections, getProducts } from "../lib/content/catalog";
 import { getArticles } from "../lib/content/journal";
 import { buildAlternates, localizedPath } from "../lib/seo/metadata";
 
+export const dynamic = "force-static";
+
 const staticPaths = [
   "/",
   "/collections",

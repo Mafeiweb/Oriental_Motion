@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { ButtonLink } from "@/components/ui/button";
 import { getMessages } from "@/i18n/messages";
 import { isLocale } from "@/i18n/routing";
+import { assetPath, localizedHref } from "@/lib/i18n/paths";
 import { buildMetadata } from "@/lib/seo/metadata";
 
 type AboutPageProps = {
@@ -53,7 +54,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
               fill
               priority
               sizes="(min-width: 1024px) 36vw, 100vw"
-              src="/images/brand/ritual-kit-still-life.jpg"
+              src={assetPath("/images/brand/ritual-kit-still-life.jpg")}
             />
           </div>
         </div>
@@ -70,10 +71,10 @@ export default async function AboutPage({ params }: AboutPageProps) {
       </div>
 
       <div className="mt-8 flex flex-wrap gap-3">
-        <ButtonLink href={`/${locale}/collections`}>
+        <ButtonLink href={localizedHref(locale, "/collections")}>
           {about.collectionCta}
         </ButtonLink>
-        <ButtonLink href={`/${locale}/journal`} variant="secondary">
+        <ButtonLink href={localizedHref(locale, "/journal")} variant="secondary">
           {about.journalCta}
         </ButtonLink>
       </div>

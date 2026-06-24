@@ -26,7 +26,7 @@ describe("json-ld helpers", () => {
     expect(productJsonLd(product!, "zh-cn")).toMatchObject({
       "@type": "Product",
       url: `${siteConfig.url}/zh-cn/products/balance-walker`,
-      image: `${siteConfig.url}/images/products/balance-walker.jpg`,
+      image: `${siteConfig.url}${product!.image}`,
       brand: {
         "@type": "Brand",
         name: "Oriental Motion"
